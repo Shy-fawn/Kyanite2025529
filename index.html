@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>六十四卦占卜 | 周易智慧</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="切換主題">
+        <span>🌙</span>
+    </button>
+
+
+
+    <!-- Background Elements -->
+    <div class="background-hexagrams"></div>
+    <div class="dragon-decoration" aria-hidden="true"></div>
+    <div class="calligraphy-stroke" aria-hidden="true"></div>
+
+    <header>
+        <div class="container">
+            <!-- Header content can be added here -->
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="split-layout">
+                <div class="intro-content">
+                    <h2 class="intro-subtitle animate-in">周易智慧・卦象呈現</h2>
+                    <h1 class="animate-in">六十四卦占卜</h1>
+                    <p class="intro-description animate-in">
+                        探索易經深奧智慧，感受卦象古老力量，指引生活方向。
+                        凝神靜思，觀象明理，揭示命運變化。
+                    </p>
+                    <div class="action-buttons">
+                        <button id="cast-button" class="btn btn-primary animate-in">
+                            開始占卜
+                        </button>
+                        <button id="reset-button" class="btn btn-secondary animate-in">
+                            重新卜卦
+                        </button>
+                        <button id="ai-button" class="btn btn-secondary animate-in">
+                            AI解說
+                        </button>
+                        <button id="about-button" class="btn btn-secondary animate-in">
+                            八卦說明
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="visual-container">
+                    <div id="yin-yang" class="yin-yang parallax" data-depth="0.2" style="--rotation: 0">
+                        <div class="circle-dot"></div>
+                        <div class="circle-dot"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="result-container"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="footer-text">
+                <span class="decorative-symbol">☰</span> 數據來源《周易》經文及易經卦象 <span class="decorative-symbol">☷</span><br>
+                <span class="decorative-symbol">☰</span> AI可能會發生錯誤，請查核重要資訊 <span class="decorative-symbol">☷</span>
+            </p>
+        </div>
+    </footer>
+
+    <!-- About Modal -->
+    <div id="about-modal" class="modal">
+        <div class="modal-content">
+            <button class="close-btn">&times;</button>
+            <h2>易經八卦說明</h2>
+            <p>《易經》，又稱《周易》，是中國最古老的經典之一，也是研究哲學、預測學的重要著作。它由八卦與六十四卦組成，用以表達宇宙變化規律。</p>
+            
+            <h3>八卦基礎</h3>
+            <p>八卦由三爻組成，包括乾（☰）、坤（☷）、震（☳）、艮（☶）、離（☲）、坎（☵）、兌（☱）、巽（☴）。它們分別代表天、地、雷、山、火、水、澤、風。</p>
+            
+            <h3>占卜方法</h3>
+            <p>本工具使用隨機數生成算法模擬傳統的筮法，分析動爻變化，呈現本卦與變卦的組合關係，幫助理解當前局勢與未來發展趨勢。</p>
+            
+            <h3>解讀指南</h3>
+            <p>解讀卦象時，應綜合考慮：</p>
+            <ul>
+                <li>本卦與變卦的整體意義</li>
+                <li>動爻所處位置與性質</li>
+                <li>卦辭對具體情境的指導</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

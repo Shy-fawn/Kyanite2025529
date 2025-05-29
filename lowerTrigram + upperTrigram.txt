@@ -1,0 +1,15 @@
+ // 按照占卜規律：左三爻為上卦，右三爻為下卦，上卦在上，下卦在下
+        const upperTrigram = getTrigramSymbol(lines.slice(0, 3)); // 左三爻（索引0-2）為上卦
+        const lowerTrigram = getTrigramSymbol(lines.slice(3, 6)); // 右三爻（索引3-5）為下卦
+        
+        // 符號順序為上卦+下卦(原先是upperTrigram + lowerTrigram但卻一直變成下卦在上，上卦在下，所以我手動修正)
+        const guaSymbol = lowerTrigram + upperTrigram;
+        
+        // 如果是純卦（上下卦相同），則只用一個符號表示
+        const finalSymbol = (upperTrigram === lowerTrigram) ? upperTrigram : guaSymbol;
+        
+        // 直接從映射中查找
+        const foundGua = window.guaSymbolMap[finalSymbol];
+        if (foundGua) {
+            return foundGua;
+        }
