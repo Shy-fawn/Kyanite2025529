@@ -104,14 +104,14 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "大有", symbol: "☲☰", description: "元亨。象徵大有收穫。" },
         { name: "謙", symbol: "☷☶", description: "亨，君子有終。象徵謙虛、謙遜。" },
         { name: "豫", symbol: "☳☷", description: "利建侯行師。象徵安樂、愉悅。" },
-        { name: "隨", symbol: "☱☳", description: "元亨利貞，無咎。象徵隨從、追隨。" },
+        { name: "隨", symbol: "☱☳", description: "元亨利貞，无咎。象徵隨從、追隨。" },
         { name: "蠱", symbol: "☶☴", description: "元亨，利涉大川。先甲三日，後甲三日。象徵整治、革新。" },
         { name: "臨", symbol: "☷☱", description: "元亨，利貞。至於八月有凶。象徵監臨、統治。" },
         { name: "觀", symbol: "☴☷", description: "盥而不薦，有孚顒若。象徵觀察、瞻仰。" },
         { name: "噬嗑", symbol: "☲☳", description: "亨。利用獄。象徵咬合、刑罰。" },
         { name: "賁", symbol: "☶☲", description: "亨。小利有攸往。象徵文飾、修飾。" },
         { name: "剝", symbol: "☶☷", description: "不利有攸往。象徵剝落、侵蝕。" },
-        { name: "復", symbol: "☷☳", description: "亨。出入無疾，朋來無咎。反復其道，七日來復，利有攸往。象徵回復、回歸。" },
+        { name: "復", symbol: "☷☳", description: "亨。出入无疾，朋來无咎。反復其道，七日來復，利有攸往。象徵回復、回歸。" },
         { name: "无妄", symbol: "☰☳", description: "元亨，利貞。其匪正有眚，不利有攸往。象徵不妄為、真實。" },
         { name: "大畜", symbol: "☶☰", description: "利貞，不家食，吉。象徵大積蓄、準備。" },
         { name: "頤", symbol: "☶☳", description: "貞吉。觀頤，自求口實。象徵頤養、保養。" },
@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "坎", symbol: "☵", description: "習坎，有孚，維心亨，行有尚。象徵險阻、坎坷。" },
         { name: "離", symbol: "☲", description: "利貞，亨。畜牝牛，吉。象徵附著、光明。" },
         { name: "咸", symbol: "☱☶", description: "亨，利貞，取女吉。象徵感應、交感。" },
-        { name: "恆", symbol: "☳☴", description: "亨，無咎，利貞，利有攸往。象徵恆久、持久。" },
+        { name: "恆", symbol: "☳☴", description: "亨，无咎，利貞，利有攸往。象徵恆久、持久。" },
         { name: "遯", symbol: "☰☶", description: "亨，小利貞。象徵退避、隱遁。" },
         { name: "大壯", symbol: "☳☰", description: "利貞。象徵強盛、壯大。" },
         { name: "晉", symbol: "☲☷", description: "康侯用錫馬蕃庶，晝日三接。象徵前進、晉升。" },
@@ -127,21 +127,21 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "家人", symbol: "☴☲", description: "利女貞。象徵家庭、家族。" },
         { name: "睽", symbol: "☲☱", description: "小事吉。象徵背離、乖離。" },
         { name: "蹇", symbol: "☵☶", description: "利西南，不利東北；利見大人，貞吉。象徵艱難、險阻。" },
-        { name: "解", symbol: "☳☵", description: "利西南，無所往，其來復吉。有攸往，夙吉。象徵緩解、解除。" },
-        { name: "損", symbol: "☶☱", description: "有孚，元吉，無咎，可貞，利有攸往。曷之用？二簋可用享。象徵減損、損失。" },
+        { name: "解", symbol: "☳☵", description: "利西南，无所往，其來復吉。有攸往，夙吉。象徵緩解、解除。" },
+        { name: "損", symbol: "☶☱", description: "有孚，元吉，无咎，可貞，利有攸往。曷之用？二簋可用享。象徵減損、損失。" },
         { name: "益", symbol: "☴☳", description: "利有攸往，利涉大川。象徵增益、利益。" },
         { name: "夬", symbol: "☱☰", description: "揚於王庭，孚號，有厲，告自邑，不利即戎，利有攸往。象徵決斷、決裂。" },
         { name: "姤", symbol: "☰☴", description: "女壯，勿用取女。象徵相遇、邂逅。" },
         { name: "萃", symbol: "☱☷", description: "亨。王假有廟，利見大人，亨，利貞。用大牲吉，利有攸往。象徵聚合、聚集。" },
         { name: "升", symbol: "☷☴", description: "元亨，用見大人，勿恤，南征吉。象徵上升、長進。" },
-        { name: "困", symbol: "☱☵", description: "亨，貞，大人吉，無咎，有言不信。象徵困窮、困境。" },
-        { name: "井", symbol: "☵☴", description: "改邑不改井，無喪無得，往來井井。汔至，亦未繘井，羸其瓶，凶。象徵水井、養人。" },
+        { name: "困", symbol: "☱☵", description: "亨，貞，大人吉，无咎，有言不信。象徵困窮、困境。" },
+        { name: "井", symbol: "☵☴", description: "改邑不改井，无喪无得，往來井井。汔至，亦未繘井，羸其瓶，凶。象徵水井、養人。" },
         { name: "革", symbol: "☱☲", description: "己日乃孚，元亨，利貞，悔亡。象徵變革、革新。" },
         { name: "鼎", symbol: "☲☴", description: "元吉，亨。象徵鼎器、穩定。" },
         { name: "震", symbol: "☳", description: "亨。震來虩虩，笑言啞啞。震驚百里，不喪匕鬯。象徵震動、震撼。" },
-        { name: "艮", symbol: "☶", description: "艮其背，不獲其身；行其庭，不見其人，無咎。象徵靜止、止欲。" },
+        { name: "艮", symbol: "☶", description: "艮其背，不獲其身；行其庭，不見其人，无咎。象徵靜止、止欲。" },
         { name: "漸", symbol: "☴☶", description: "女歸吉，利貞。象徵漸進、逐漸。" },
-        { name: "歸妹", symbol: "☳☱", description: "征凶，無攸利。象徵婚嫁、歸往。" },
+        { name: "歸妹", symbol: "☳☱", description: "征凶，无攸利。象徵婚嫁、歸往。" },
         { name: "豐", symbol: "☳☲", description: "亨，王假之，勿憂，宜日中。象徵豐盛、盛大。" },
         { name: "旅", symbol: "☲☶", description: "小亨，旅貞吉。象徵旅行、旅居。" },
         { name: "巽", symbol: "☴", description: "小亨，利攸往，利見大人。象徵順從、謙遜。" },
@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "☶☲": guaData[21],  // 賁
             "☶☷": guaData[22],  // 剝
             "☷☳": guaData[23],  // 復
-            "☰☳": guaData[24],  // 無妄
+            "☰☳": guaData[24],  // 无妄
             "☶☰": guaData[25],  // 大畜
             "☶☳": guaData[26],  // 頤
             "☱☴": guaData[27],  // 大過
