@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "中孚", symbol: "☴☱", description: "豚魚吉，利涉大川，利貞。象徵誠信、孚信。" },
         { name: "小過", symbol: "☳☶", description: "亨，利貞，可小事，不可大事。飛鳥遺之音，不宜上宜下，大吉。象徵小有過越。" },
         { name: "既濟", symbol: "☵☲", description: "亨，小利貞，初吉終亂。象徵已經完成、成功。" },
-        { name: "未濟", symbol: "☲☵", description: "亨，小狐汔濟，濡其尾，無攸利。象徵尚未完成、有待努力。" }
+        { name: "未濟", symbol: "☲☵", description: "亨，小狐汔濟，濡其尾，无攸利。象徵尚未完成、有待努力。" }
     ];
 
     function generateHexagram() {
