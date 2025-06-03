@@ -422,7 +422,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                 }
 
-                // 分割卦詞和象徵
+                // 分割卦辭和象徵
                 const splitOriginal = originalGua.description.split('象徵');
                 const originalGuaText = splitOriginal[0].trim();
                 const originalSymbolText = splitOriginal.length > 1 ? splitOriginal[1].trim() : "";
@@ -491,7 +491,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             </div>
                             <h3 class="hexagram-title">本卦：${originalGua.name}</h3>
                             <div class="hexagram-text">
-                                <p class="gua-verse">卦詞：${originalGuaText}</p>
+                                <p class="gua-verse">卦辭：${originalGuaText}</p>
                                 <p class="gua-meaning">象徵：${originalSymbolText}</p>
                             </div>
                         </div>
@@ -510,7 +510,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             </div>
                             <h3 class="hexagram-title">變卦：${changedGua.name}</h3>
                             <div class="hexagram-text">
-                                <p class="gua-verse">卦詞：${changedGuaText}</p>
+                                <p class="gua-verse">卦辭：${changedGuaText}</p>
                                 <p class="gua-meaning">象徵：${changedSymbolText}</p>
                             </div>
                         </div>
