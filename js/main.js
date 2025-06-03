@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "升", symbol: "☷☴", description: "元亨，用見大人，勿恤，南征吉。象徵上升、長進。" },
         { name: "困", symbol: "☱☵", description: "亨，貞，大人吉，无咎，有言不信。象徵困窮、困境。" },
         { name: "井", symbol: "☵☴", description: "改邑不改井，无喪无得，往來井井。汔至，亦未繘井，羸其瓶，凶。象徵水井、養人。" },
-        { name: "革", symbol: "☱☲", description: "己日乃孚，元亨，利貞，悔亡。象徵變革、革新。" },
+        { name: "革", symbol: "☱☲", description: "巳日乃孚，元亨，利貞，悔亡。象徵變革、革新。" },
         { name: "鼎", symbol: "☲☴", description: "元吉，亨。象徵鼎器、穩定。" },
         { name: "震", symbol: "☳", description: "亨。震來虩虩，笑言啞啞。震驚百里，不喪匕鬯。象徵震動、震撼。" },
         { name: "艮", symbol: "☶", description: "艮其背，不獲其身；行其庭，不見其人，无咎。象徵靜止、止欲。" },
@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "渙", symbol: "☴☵", description: "亨。王假有廟，利涉大川，利貞。象徵渙散、離散。" },
         { name: "節", symbol: "☵☱", description: "亨。苦節不可貞。象徵節制、節儉。" },
         { name: "中孚", symbol: "☴☱", description: "豚魚吉，利涉大川，利貞。象徵誠信、孚信。" },
-        { name: "小過", symbol: "☳☶", description: "亨，利貞，可小事，不可大事。飛鳥遺之音，不宜上宜下，大吉。象徵小有過越。" },
+        { name: "小過", symbol: "☳☶", description: "亨，利貞，可小事，不可大事。飛鳥遺之音，不宜上，宜下，大吉。象徵小有過錯。" },
         { name: "既濟", symbol: "☵☲", description: "亨，小利貞，初吉終亂。象徵已經完成、成功。" },
         { name: "未濟", symbol: "☲☵", description: "亨，小狐汔濟，濡其尾，无攸利。象徵尚未完成、有待努力。" }
     ];
